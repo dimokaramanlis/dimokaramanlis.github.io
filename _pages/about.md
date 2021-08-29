@@ -5,4 +5,5 @@ permalink: /about/
 
 Hi, I'm Dimos. I am currently doing a PhD in retinal neuroscience with Tim Gollisch. 
 
-You can find my CV [here](cv/karamanlis_cv.pdf).
+You can find my CV [here](./karamanlis_cv.pdf).
+
