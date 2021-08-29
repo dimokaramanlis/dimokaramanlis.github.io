@@ -1,6 +1,6 @@
 ---
 
-layout: post
+layout: default
 title: "The prerequisites of productivity"
 date: 2019-06-09
 
