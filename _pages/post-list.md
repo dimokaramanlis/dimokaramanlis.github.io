@@ -1,7 +1,9 @@
 ---
-title: "Posts"
+title: "Blog"
 permalink: /post-list/
 ---
+
+Post list:
 
 <ul>
   {% for post in site.posts %}
