@@ -3,5 +3,4 @@ title: "Home"
 permalink: /
 ---
 
-### Header 3
-Hi, I am Dimos. I am currently a neuroscience PhD student.
+Hi, I am Dimos. This is my personal webpage, and I'm still in the process of figuring out how to set it up!
