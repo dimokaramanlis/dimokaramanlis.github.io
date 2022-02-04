@@ -26,3 +26,18 @@ sidebar:
   - #name: Project Repository
     #icon: fa-solid fa-box-archive
     #link: https://github.com/BDHU/minimalist
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
+        
+news_limit: 5
+# -----------------------------------------------------------------------------
