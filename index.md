@@ -10,14 +10,14 @@ I have previously studied Neuroscience at the [IMPRS Göttingen](https://www.gpn
 
 
 <div class="news">
-<h3>News</h3>
+<h3><a href="./news">News</a></h3>
 {% if site.news  -%} 
 <div class="table-responsive">
   <table class="table table-sm table-borderless">
   {%- assign news = site.news | reverse -%} 
   {% for item in news limit: site.news_limit %} 
 	<tr>
-	  <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
+	  <th scope="row">{{ item.date | date: "%Y/%m/%d" }}</th>
 	  <td>
 		{% if item.inline -%} 
 		  {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
