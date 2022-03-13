@@ -8,9 +8,11 @@ My research focuses on the retinal encoding of natural scenes. I work at the int
 
 I have previously studied Neuroscience at the [IMPRS Göttingen](https://www.gpneuro.uni-goettingen.de/) and Medicine at the [Aristotle University of Thessaloniki](https://www.auth.gr/en/). You can find my CV [here](./karamanlis_cv.pdf).
 
+---
+
 
 <div class="news">
-<h3><a href="./news">News</a></h3>
+<h2><a href="./news">News</a></h2>
 {% if site.news  -%} 
 <div class="table-responsive">
   <table class="table table-sm table-borderless">
@@ -33,4 +35,3 @@ I have previously studied Neuroscience at the [IMPRS Göttingen](https://www.gpn
 <p>No news so far...</p>
 {%- endif %} 
 </div>
-
