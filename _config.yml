@@ -20,9 +20,9 @@ sidebar:
   - name: Twitter
     icon: fa-brands fa-twitter
     link: https://twitter.com/dimoskaram
-  - #name: Blog
-    #icon: fa-solid fa-pen
-    #link: https://www.bodunhu.com/blog/
+  - name: Mastodon
+    icon: fa-brands fa-mastodon
+    link: https://qoto.org/@dimokaramanlis
   - #name: Project Repository
     #icon: fa-solid fa-box-archive
     #link: https://github.com/BDHU/minimalist
