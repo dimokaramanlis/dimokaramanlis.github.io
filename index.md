@@ -2,11 +2,16 @@
 layout: default
 ---
 
-My name is Dimos and I’m a researcher in the [Gollisch lab](https://www.retina.uni-goettingen.de/) at the University Medical Center Göttingen.
+My name is Dimos and I’m a researcher in the [El-Boustani lab](http://elboustani-lab.org/) at the University of Geneva. 
 
-I focus on understanding the retinal encoding of natural scenes. I work at the interface of computational neuroscience and large-scale electrophysiology.
 
-I have previously studied Neuroscience at the [IMPRS Göttingen](https://www.gpneuro.uni-goettingen.de/) and Medicine at the [Aristotle University of Thessaloniki](https://www.auth.gr/en/). You can find my CV [here](./karamanlis_cv.pdf).
+<!---
+[/I focus on understanding the retinal encoding of natural scenes. I work at the interface of computational neuroscience and large-scale electrophysiology. /]
+-->
+
+My doctoral work with [Tim Gollisch](https://www.retina.uni-goettingen.de/) focused on how nonlinear processing shapes the retinal encoding of natural scenes. I have previously studied Neuroscience at the [IMPRS Göttingen](https://www.gpneuro.uni-goettingen.de/) and Medicine at the [Aristotle University of Thessaloniki](https://www.auth.gr/en/). 
+
+You can find my CV [here](./karamanlis_cv.pdf).
 
 ---
 

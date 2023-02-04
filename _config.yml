@@ -1,6 +1,6 @@
 title: Dimokratis Karamanlis
 logo: /assets/img/bio-photo.jpg
-email: dimokratis.karamanlis at med.uni-goettingen.de
+email: dimokratis.karamanlis at unige.ch
 #description: Minimalist is a theme powered by Jekyll. It is modified based on the Minimal theme.
 #show_downloads: false
 #google_analytics: UA-108144808-1
@@ -36,6 +36,7 @@ collections:
   news:
     defaults:
       layout: post
+      text-align: justify
     output: true
     permalink: /news/:path/
         

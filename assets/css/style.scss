@@ -22,6 +22,10 @@
   opacity: 0;
 }
 
+p { 
+text-align: justify; 
+}
+
 .overlay:target {
   visibility: visible;
   opacity: 1;
@@ -50,6 +54,7 @@
 .popup .close:hover {
   color: #06D85F;
 }
+
 
 .popup .content {
   padding-right: 20px;
