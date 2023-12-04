@@ -17,9 +17,6 @@ sidebar:
   - name: GitHub
     icon: fa-brands fa-github
     link: https://github.com/dimokaramanlis
-  - name: Twitter
-    icon: fa-brands fa-twitter
-    link: https://twitter.com/dimoskaram
   - name: Mastodon
     icon: fa-brands fa-mastodon
     link: https://qoto.org/@dimokaramanlis
