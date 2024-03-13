@@ -126,6 +126,10 @@
 
 .highlight .w { color: #bbbbbb; }
 
+.justify-text { 
+    text-align: justify; 
+ }
+
 /*
 H -> hue
 L -> luminosity

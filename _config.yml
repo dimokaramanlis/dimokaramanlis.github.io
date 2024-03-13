@@ -39,3 +39,6 @@ collections:
         
 news_limit: 3
 # -----------------------------------------------------------------------------
+.justify-text {
+    text-align: justify;
+}
