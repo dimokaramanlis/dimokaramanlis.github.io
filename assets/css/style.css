@@ -126,9 +126,7 @@
 
 .highlight .w { color: #bbbbbb; }
 
-.justify-text { 
-    text-align: justify; 
- }
+.justify-text { text-align: right; }
 
 /*
 H -> hue
