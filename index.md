@@ -2,7 +2,10 @@
 layout: default
 ---
 
-My name is Dimos and I’m a researcher in the [El-Boustani lab](http://elboustani-lab.org/) at the University of Geneva. 
+My name is Dimos and I’m a postdoctoral fellow in the [El-Boustani lab](http://elboustani-lab.org/) at 
+the University of Geneva. My research focuses on social decision-making and how frontal cortical areas 
+represent information about others. To tackle questions in these areas, I combine high-throughput 
+behavioral experiments, large-scale electrophysiology and imaging *in vivo*, and statistical modeling. 
 
 
 <!---
