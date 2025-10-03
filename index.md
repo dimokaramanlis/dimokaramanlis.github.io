@@ -2,7 +2,15 @@
 layout: default
 ---
 
-My name is Dimos and I’m a postdoctoral fellow in the [El-Boustani lab](http://elboustani-lab.org/) at the University of Geneva. My research focuses on social decision-making and how frontal cortical areas represent information about others. To tackle questions in these areas, I combine high-throughput behavioral experiments, large-scale electrophysiology and imaging *in vivo*, and statistical modeling.
+<style>
+  .justified-text p {
+    text-align: justify;
+  }
+</style>
+
+<div class="justified-text">
+
+My name is Dimos (Δήμος) and I’m a postdoctoral fellow in the [El-Boustani lab](http://elboustani-lab.org/) at the University of Geneva. My research focuses on social decision-making and how frontal cortical areas represent information about others. To tackle questions in these areas, I combine high-throughput behavioral experiments, large-scale electrophysiology *in vivo*, brain-wide activity mapping, and statistical modeling.
 
 <!---
 [/I focus on understanding the retinal encoding of natural scenes. I work at the interface of computational neuroscience and large-scale electrophysiology. /]
@@ -12,6 +20,7 @@ My doctoral work with [Tim Gollisch](https://www.retina.uni-goettingen.de/) focu
 
 You can find my CV [here](./cv_word.pdf).
 
+</div>
 ---
 
 
