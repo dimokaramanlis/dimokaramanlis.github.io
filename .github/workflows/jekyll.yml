@@ -1,17 +1,17 @@
-name: Deploy Jekyll site to Pages
+name: Build and deploy Jekyll site
 
 on:
   push:
     branches: ["master"]
+  pull_request:            # build-only check for Dependabot / other PRs
   workflow_dispatch:
 
+# Least privilege by default; the deploy job asks for what it needs.
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
-  group: "pages"
+  group: pages-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -20,11 +20,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v5
+        with:
+          persist-credentials: false
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          # Ruby 3.2 matches the precompiled nokogiri 1.15.x in Gemfile.lock
-          ruby-version: "3.2"
+          ruby-version: default   # reads .ruby-version
           bundler-cache: true
       - name: Setup Pages
         id: pages
@@ -33,16 +34,19 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
-          JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
 
   deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
     steps:
       - name: Deploy to Pages
         id: deployment

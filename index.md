@@ -37,7 +37,7 @@ You can find my CV [here](./cv_word.pdf).
 	  <th scope="row">{{ item.date | date: "%Y/%m/%d" }}</th>
 	  <td>
 		{% if item.inline -%} 
-		  {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+		  {{ item.content | remove: '<p>' | remove: '</p>' }}
 		{%- else -%} 
 		  <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
 		{%- endif %} 

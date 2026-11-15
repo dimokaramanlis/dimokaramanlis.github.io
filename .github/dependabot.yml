@@ -1,0 +1,24 @@
+# Dependabot opens grouped update PRs instead of only raising alerts.
+# The PR build in .github/workflows/jekyll.yml checks each one before you merge.
+version: 2
+updates:
+  - package-ecosystem: bundler
+    directory: "/"
+    schedule:
+      interval: monthly
+    cooldown:
+      default-days: 7        # skip brand-new releases (supply-chain safety)
+    groups:
+      ruby-gems:
+        patterns: ["*"]
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: monthly
+    cooldown:
+      default-days: 7
+    groups:
+      actions:
+        patterns: ["*"]

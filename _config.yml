@@ -9,7 +9,6 @@ color-scheme: auto
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jemoji
 
 sidebar:
   - name: Google Scholar
@@ -23,7 +22,7 @@ sidebar:
     link: https://github.com/dimokaramanlis
   - name: Mastodon
     icon: fa-brands fa-mastodon
-    link: https://qoto.org/@dimokaramanlis
+    link: https://neuromatch.social/@dimokaramanlis
 
 
 # -----------------------------------------------------------------------------
